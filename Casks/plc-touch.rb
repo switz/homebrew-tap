@@ -8,6 +8,7 @@ cask "plc-touch" do
   homepage "https://github.com/switz/plc-touch"
 
   app "plc-touch.app"
+  binary "#{appdir}/plc-touch.app/Contents/MacOS/plc-touch"
 
   zap trash: "~/.config/plc-touch"
 end
